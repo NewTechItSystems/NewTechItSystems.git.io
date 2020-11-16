@@ -22,6 +22,12 @@ body {
   line-height: 1;
 }
 
+#Cate a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
 /* navbar-styles */
 /* nav {
   background: var(--primary-color);
