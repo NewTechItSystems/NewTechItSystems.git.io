@@ -6,6 +6,7 @@
   --primary-color: rgba(4, 51, 83, 0.9);
   --overlay-color: rgba(24, 39, 51, 0.85);
   --menu-speed: 0.75s;
+  scroll-behavior: smooth;
 }
 
 /* basic body styles */

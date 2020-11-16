@@ -1,0 +1,51 @@
+root {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgba(197, 193, 193, 0.877);
+}
+
+.cardContainer h3 {
+  padding: 15px;
+  text-align: center;
+  width: 90%;
+  margin: 10px auto;
+  border-radius: 10px;
+  background: rgba(146, 146, 146, 0.719);
+  box-shadow: 0 0 #fff 20px 20px;
+}
+
+.cards {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  margin: 0 auto;
+  min-width: 0;
+  justify-self: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.rotate {
+  height: 250px;
+  transform: rotate(-90deg);
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  min-width: 0;
+}
